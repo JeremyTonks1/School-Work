@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="view-port" content="device-width,intial-scale=1.0,shrink-to-fit=no" >
+	<title>Bootstrap Tutorial</title>
+	<!--Import Bootstrap Lib files: bootstrap.min.js, slim.min.js, popper.min.js, bootstrap.min.js-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Navbar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Dropdown
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			  <a class="dropdown-item" href="#">Action</a>
+			  <a class="dropdown-item" href="#">Another action</a>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		  </li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+		  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+	  </div>
+	</nav>
+	
+	<!--Bootstrap Features: <div class="container" or "container-fluid">, <small></small>,-->
+	<div class="container-fluid">
+		<h1 class="page-header">ITWD 6.408 <small> Advanced Internet and Web Development </small></h1>
+
+		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			(1)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+			<mark>(2) Tincidunt lobortis feugiat vivamus at. Aliquam eleifend mi in nulla posuere sollicitudin aliquam.</mark><br>
+			<u>(3) Iaculis eu non diam phasellus vestibulum lorem sed risus ultricies. Sollicitudin ac orci phasellus egestas tellus.</u><br>
+			<del>(4) Lectus quam id leo in vitae turpis massa sed elementum. Sed velit dignissim sodales ut eu sem integer vitae justo.</del>
+		</p>
+	
+		<!-- Example single danger button -->
+		<div class="btn-group">
+		  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Action
+		  </button>
+		  <div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Action</a>
+			<a class="dropdown-item" href="#">Another action</a>
+			<a class="dropdown-item" href="#">Something else here</a>
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="#">Separated link</a>
+		  </div>
+		</div>
+	
+	<hr>
+	<blockquote class="blockquote text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+		</p>
+		<footer class="blockquote-footer">
+			From <cite title="lorem"><a href="https://loremipsum.io/"> https://loremipsum.io/</a></cite>
+		</footer>
+		<footer class="blockquote-footer">
+			From <cite title="bootstrap"><a href="https://getbootstrap.com/docs/4.5/components/alerts/"> https://getbootstrap.com/docs/4.5/components/alerts/</a></cite>
+		</footer>
+	</blockquote>
+	
+	<hr>
+	<h2>Bootstrap: Align and transform</h2>
+	<p class="text-left">text-left</p>
+	<p class="text-center">text-center</p>
+	<p class="text-right">text-right</p>
+	
+	<hr>
+	<h2>Bootstrap: float</h2>
+	<div class="float-left">div float-left</div>
+	<div class="float-right">div float-right</div>
+	<!--Clear Float Property-->
+	<div class="clearfix"></div>
+	
+	<hr>
+	<h2>Bootstrap: list</h2>
+	<ul class="list-unstyled">
+		<li>Topic 1: HTML5</li>
+		<li>Topic 2: CSS3</li>
+		<li>Topic 3: JavaScript</li>
+		<li>Topic 4: XML</li>
+		<li>Topic 5: AJAX</li>
+		<li>Topic 6: JQuery</li>
+	</ul>
+	
+	<ul class="list-inline">
+		<li class="list-inline-item">Topic 1: HTML5</li>
+		<li class="list-inline-item">Topic 2: CSS3</li>
+		<li class="list-inline-item">Topic 3: JavaScript</li>
+		<li class="list-inline-item">Topic 4: XML</li>
+		<li class="list-inline-item">Topic 5: AJAX</li>
+		<li class="list-inline-item">Topic 6: JQuery</li>
+	</ul>
+	
+	<ul class="list-group">
+		<li class="list-group-item">Topic 1: HTML5</li>
+		<li class="list-group-item">Topic 2: CSS3</li>
+		<li class="list-group-item">Topic 3: JavaScript</li>
+		<li class="list-group-item">Topic 4: XML</li>
+		<li class="list-group-item">Topic 5: AJAX</li>
+		<li class="list-group-item">Topic 6: JQuery</li>
+	</ul>
+	
+	<hr>
+	<h2>Bootstrap: Text Colour</h2>
+	<p class="text-primary">Text Color 1: primary text color</p>
+	<p class="text-success">Text Color 2: success text color</p>
+	<p class="text-info">Text Color 3: info text color</p>
+	<p class="text-warning">Text Color 4: warning text color</p>
+	<p class="text-danger">Text Color 5: danger text color</p>
+	<p class="text-muted">Text Color 6: muted text color</p>
+	<p class="text-default">Text Color 7: default text color</p>
+	
+	<h2>Bootstrap: Background Colour</h2>
+	<p class="bg-primary">BG Color 1: primary bg color</p>
+	<p class="bg-success">BG Color 2: success bg color</p>
+	<p class="bg-info">BG Color 3: info bg color</p>
+	<p class="bg-warning">BG Color 4: warning bg color</p>
+	<p class="bg-danger">BG Color 5: danger bg color</p>
+	<p class="bg-muted">BG Color 6: muted bg color</p>
+	<p class="bg-default">BG Color 7: default bg color</p>
+	
+	<hr>
+	<!--Bootstrap 4 does not support btn-xs-->
+	<h2>Bootstrap: Button</h2>
+	<button class="btn"></button>
+	<button class="btn btn-default">default button</button>
+	<button class="btn btn-primary disabled">primary button</button>
+	<button class="btn btn-success btn-lg">success button</button>
+	<button class="btn btn-info">info button</button>
+	<button class="btn btn-warning btn-sm">warning button</button>
+	<button class="btn btn-danger">danger button</button>
+	<button class="btn btn-muted">muted button</button>
+	
+	</div>
+	
+	<hr>
+	<div class="container-fluid">
+		<h2>Bootstrap: Grid</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<p>Vitae proin sagittis nisl rhoncus mattis. Varius morbi enim nunc faucibus. Sapien faucibus et molestie ac. Penatibus et magnis dis parturient. Sit amet cursus sit amet dictum sit amet. Donec enim diam vulputate ut pharetra. Convallis a cras semper auctor neque. Et malesuada fames ac turpis egestas integer. Enim facilisis gravida neque convallis a cras semper auctor neque. Ullamcorper a lacus vestibulum sed arcu. Id ornare arcu odio ut sem nulla pharetra diam.
+				</p>
+			</div>
+			<div class="col-md-4">
+				<p>Sed augue lacus viverra vitae congue eu consequat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Mi eget mauris pharetra et ultrices neque ornare. Rutrum quisque non tellus orci. Fringilla urna porttitor rhoncus dolor purus non. Dictum varius duis at consectetur lorem donec. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Libero enim sed faucibus turpis. Augue interdum velit euismod in pellentesque. Tincidunt ornare massa eget egestas purus viverra.
+				</p>
+			</div>
+			<div class="col-md-4">
+				<p>In hac habitasse platea dictumst. Erat nam at lectus urna duis convallis convallis. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Cursus metus aliquam eleifend mi in nulla posuere. Non consectetur a erat nam at. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Posuere morbi leo urna molestie at elementum eu facilisis sed. Malesuada fames ac turpis egestas. Facilisis leo vel fringilla est ullamcorper. At risus viverra adipiscing at. Nibh praesent tristique magna sit. Mauris nunc congue nisi vitae suscipit tellus. Vel facilisis volutpat est velit egestas dui id. Facilisis mauris sit amet massa vitae tortor condimentum. Adipiscing diam donec adipiscing tristique risus nec feugiat. Dui vivamus arcu felis bibendum ut tristique et egestas. Amet nulla facilisi morbi tempus iaculis urna. In mollis nunc sed id semper risus in hendrerit. Mi sit amet mauris commodo quis imperdiet.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<p>Vitae proin sagittis nisl rhoncus mattis. Varius morbi enim nunc faucibus. Sapien faucibus et molestie ac. Penatibus et magnis dis parturient. Sit amet cursus sit amet dictum sit amet. Donec enim diam vulputate ut pharetra. Convallis a cras semper auctor neque. Et malesuada fames ac turpis egestas integer. Enim facilisis gravida neque convallis a cras semper auctor neque. Ullamcorper a lacus vestibulum sed arcu. Id ornare arcu odio ut sem nulla pharetra diam.
+				</p>
+			</div>
+			<div class="col-sm-6">
+				<p>Sed augue lacus viverra vitae congue eu consequat. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Mi eget mauris pharetra et ultrices neque ornare. Rutrum quisque non tellus orci. Fringilla urna porttitor rhoncus dolor purus non. Dictum varius duis at consectetur lorem donec. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Libero enim sed faucibus turpis. Augue interdum velit euismod in pellentesque. Tincidunt ornare massa eget egestas purus viverra.
+				</p>
+			</div>
+		</div>
+	</div>
+	
+</body>
